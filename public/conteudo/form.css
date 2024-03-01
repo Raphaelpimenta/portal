@@ -1,0 +1,132 @@
+.form-trocaSenha,
+.form-cadastro {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.form-login .input {
+    display: flex;
+    flex-direction: column;
+    /* margin: 15px 0px; */
+    margin-bottom: 25px;
+}
+
+.form-login .input .inputSenha {
+    margin-bottom: 30px;
+}
+
+
+
+.form-login .checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.form-login .checkbox .checkbox-input{
+    width: 15px;
+    position: relative;
+    bottom: 2px;
+}
+
+
+.checkbox-label {
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+}
+
+.form-login .divisao-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 20px;
+}
+
+.form-login input {
+    background-color: #E7E7E7;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.form-login .input input:focus {
+    outline: 1px solid #B20000;
+}
+
+.form-login label {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-login .btn {
+    border: none;
+    border-radius: 10px;
+    margin: 0px auto 20px auto;
+    background-color: #38B519;
+    cursor: pointer;
+}
+
+.form-login .btn a{
+    border: none;
+    padding: 10px 25px;
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.form-login p {
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-login p a {
+    color: #551BFA;
+}
+
+.cadastro-texto {
+    text-align: center;
+}
+
+.titulo-cadastro {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.cadastro-texto p {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.cadastro-texto button {
+    background-color: #B20000;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.cadastro-texto .btn-cadastro a {
+    display: block;
+    color: #FFFFFF;
+    padding: 15px 25px;
+}

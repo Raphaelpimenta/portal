@@ -1,0 +1,9 @@
+@import './global/logo.css';
+@import './global/reset.css';
+@import './global/modal.css';
+
+@import './conteudo/conteudo.css';
+@import './conteudo/form.css';
+
+@import './telas/header.css';
+@import './telas/ativos.css';

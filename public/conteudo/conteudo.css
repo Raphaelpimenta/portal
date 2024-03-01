@@ -1,0 +1,57 @@
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15em;
+    margin: 90px auto;
+}
+
+.conteudo-texto {
+    max-width: 500px;
+    background-color: #F0F0F0E5;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.conteudo-texto h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.conteudo-texto h2 span {
+    color: #B20000;
+}
+
+.conteudo-texto p {
+    color: #000000;
+    font-weight: 500;
+}
+
+.login,
+.cadastro {
+    background-color: #F9F9F9;
+    border-radius: 32px;
+    /* padding: 30px; */
+    /* padding: 10px 30px; */
+}
+
+.login {
+    width: 420px;
+    padding: 30px;
+}
+
+.cadastro {
+    width: 750px;
+    padding: 10px 30px;
+}
+
+
+.titulo-trocaSenha {
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+

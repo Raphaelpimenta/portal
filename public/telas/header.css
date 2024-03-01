@@ -1,0 +1,70 @@
+.header-bg {
+    background-color: #E30613;
+}
+
+.header-container {
+    max-width: 1450px;
+    box-sizing: border-box;
+    margin: 0px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    padding: 30px 20px;
+}
+
+.logo-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.logo-header h4 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.09rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.first-letter-header {
+    font-size: 20px;
+}
+
+.divisao-header {
+    display: block;
+    width: 2px;
+    height: 60px;
+    background-color: #fff;
+}
+
+nav .header-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+}
+
+.header-menu li a::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+    right: 0;
+}
+
+.header-menu li a:hover::after{
+    width: 100%;
+    left: 0;
+}
